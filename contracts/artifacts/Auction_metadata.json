@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_Mappings.sol": "Auction"
+			"contracts/08_Mappings.sol": "Auction"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/10_Mappings.sol": {
+		"contracts/08_Mappings.sol": {
 			"keccak256": "0x293dc560005dfa16d771cffd57b76dda68d4c66874fa18bd5d485467a7c6994e",
 			"license": "GPL-3.0",
 			"urls": [
