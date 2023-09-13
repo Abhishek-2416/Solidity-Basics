@@ -9,21 +9,31 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_price",
+						"name": "item",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_location",
-						"type": "string"
 					}
 				],
+				"name": "addElement",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getPrice",
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "getElement",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -36,67 +46,41 @@
 			},
 			{
 				"inputs": [],
-				"name": "location",
+				"name": "getLength",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_location",
-						"type": "string"
-					}
-				],
-				"name": "setLocation",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_price",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "sold",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
+				"name": "popElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -113,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/03_Constructuor.sol": "Property"
+			"contracts/05_Dynamic Size Arrays.sol": "DynamicArrays"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -127,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/03_Constructuor.sol": {
-			"keccak256": "0xdfdf5ccb9837f36ba1fdc6925af29749970189bb2eb1f96c7bc2ea8adcda4824",
+		"contracts/05_Dynamic Size Arrays.sol": {
+			"keccak256": "0xb7ab2302742114a393221732001cc67b312bcbe45a870d734553bc9b15a77935",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7f63bc8c1616d4a15436ef5931550bbe2b0b356ebd18ca874e1c86738226d3b9",
-				"dweb:/ipfs/QmeN2SQP7JTZxyzsdYpX9L5qqzNJcRzR9u97Tq7MpNJp3n"
+				"bzz-raw://48822efb135f75c515fed69a8207da9caa413167988a3f45c6fe0e78f8427dc3",
+				"dweb:/ipfs/QmWrVbnGHSCfKXscf4HyX2UzkGPmBgfdc7d7GeCE8nSzTj"
 			]
 		}
 	},

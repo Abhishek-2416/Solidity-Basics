@@ -6,97 +6,99 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "b1",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b2",
+				"outputs": [
+					{
+						"internalType": "bytes2",
+						"name": "",
+						"type": "bytes2"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b3",
+				"outputs": [
+					{
+						"internalType": "bytes3",
+						"name": "",
+						"type": "bytes3"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_price",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBytesArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "_location",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "location",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_location",
-						"type": "string"
-					}
-				],
-				"name": "setLocation",
+				"name": "setElement",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_price",
-						"type": "uint256"
-					}
-				],
-				"name": "setPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sold",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -113,7 +115,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/03_Constructuor.sol": "Property"
+			"contracts/04_Fixed Size Arrays.sol": "FixedSizeArrays"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -127,12 +129,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/03_Constructuor.sol": {
-			"keccak256": "0xdfdf5ccb9837f36ba1fdc6925af29749970189bb2eb1f96c7bc2ea8adcda4824",
+		"contracts/04_Fixed Size Arrays.sol": {
+			"keccak256": "0xe1e26c195555de68e45a251b459ec71d318fe57f142409352c8ebe50af349d29",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7f63bc8c1616d4a15436ef5931550bbe2b0b356ebd18ca874e1c86738226d3b9",
-				"dweb:/ipfs/QmeN2SQP7JTZxyzsdYpX9L5qqzNJcRzR9u97Tq7MpNJp3n"
+				"bzz-raw://d6737f84922bae3cff16dabdc0d15f34dca19fab9e6030a5572c7965360cb961",
+				"dweb:/ipfs/QmPvRGorfAtyRgKtrCUBMwwkzGqaWTgt1ymJPBwZdEA3fd"
 			]
 		}
 	},
