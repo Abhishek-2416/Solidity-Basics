@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Challenges/Challenge 4/Solution 4.sol": "Deposit"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Challenges/Challenge 4/Solution 4.sol": {
+			"keccak256": "0x6828596fffb7d1aad3bc75f7985a5ec683ca23f9e739588fd3773e6c64a0a07e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b88e58bf8c2806446df0f33e7db89ea45fc2a19210578ea116e13d90c92b13e5",
+				"dweb:/ipfs/QmPcFTCk3PtrtgonFnLFkf9PQ412ZhCJfm99qE38V3q65Q"
+			]
+		}
+	},
+	"version": 1
+}

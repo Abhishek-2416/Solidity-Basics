@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Challenges/Challenge 8/Solution 8.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Challenges/Challenge 8/Solution 8.sol": {
+			"keccak256": "0xefb20a0772aaf7d80370f6b6dd397bd81bce6cfc811b16003a87a5e81e6ae392",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://46af30cd8c43f4765a7a0da99a57f1ccaf84a434a374d3305678096d97d31db7",
+				"dweb:/ipfs/QmbNE5MgwxRY1AuHssc2fzMkgRp33aF81QLjAEiTCXM4yc"
+			]
+		}
+	},
+	"version": 1
+}

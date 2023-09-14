@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Challenges/Challenge 7/Solution 7.sol": "Game"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Challenges/Challenge 7/Solution 7.sol": {
+			"keccak256": "0x04583d2f6aecb2d0a574233eb851cfbca2d159b664d9f97c707a62c6bc26718b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1ebe40c89e3b14579d367a286e9a0fb6c3050bb6ee9d742a288b99d99421ccbc",
+				"dweb:/ipfs/QmdyUBNLu3EkrDT4rA97nsgptVmMwXrRzyGQ8mkQZJctv3"
+			]
+		}
+	},
+	"version": 1
+}

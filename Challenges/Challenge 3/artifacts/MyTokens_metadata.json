@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Challenges/Challenge 3/Solution 3.sol": "MyTokens"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Challenges/Challenge 3/Solution 3.sol": {
+			"keccak256": "0x00adfd84d36c21207d34a5b82d18115f0c2684addf95891c41613ca67a2bfd8c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b6eb1cc175d0f4fe81582b334973da0d87da807fb49082f3a6479393ac5de6bd",
+				"dweb:/ipfs/QmdEcyTu18vV662wq942KbxYSzgx6HDfQ5foXGVe7L6Msv"
+			]
+		}
+	},
+	"version": 1
+}
