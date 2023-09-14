@@ -94,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/09_StructsAndEnums.sol": "Academy"
+			"contracts/07_StructsAndEnums.sol": "Academy"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -108,7 +108,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/09_StructsAndEnums.sol": {
+		"contracts/07_StructsAndEnums.sol": {
 			"keccak256": "0x9c55bddd6d4a7b24da8ff576ba69b7070890fd1f3a633f50ac98585865880fbe",
 			"license": "GPL-3.0",
 			"urls": [

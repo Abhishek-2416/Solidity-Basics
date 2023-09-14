@@ -7,22 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "schoolInstructor",
+				"name": "contract_a",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "addr",
+						"internalType": "contract A",
+						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "xx",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -42,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/07_StructsAndEnums.sol": "School"
+			"contracts/12-Variables and Function Visibilty.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -56,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/07_StructsAndEnums.sol": {
-			"keccak256": "0x9c55bddd6d4a7b24da8ff576ba69b7070890fd1f3a633f50ac98585865880fbe",
+		"contracts/12-Variables and Function Visibilty.sol": {
+			"keccak256": "0x7209289a8cc6251bf4e26405a7f5d17ae1071ad2ffb131f4977efe1be50fbf86",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5852d7666f1e0cde3b10a4d11cfd364160433bbc674d5c91d22542a2e8cb7fbb",
-				"dweb:/ipfs/QmZfiygpA8zDqZ2FE1VZgiMZxZTMzxvtr1QzAKztyY6hxD"
+				"bzz-raw://c6d7540f2933744d9d1479713dd3d9a62616eeb4cacddb93ab922d91c1d2fccb",
+				"dweb:/ipfs/QmNyreYx2Tzg3PhdBRGaQuCN7GVc2ZZ6TJcQmyirAmGbaH"
 			]
 		}
 	},
