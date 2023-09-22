@@ -6,19 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "int256",
@@ -29,32 +16,6 @@
 				"name": "setX",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_Inhertiance in Solidity.sol": "A"
+			"contracts/14_Inhertiance in Solidity.sol": "BaseContract2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

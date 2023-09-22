@@ -6,55 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f2",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "",
+						"name": "_x",
 						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f4",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f5",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get_y",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -72,7 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "xx",
+				"name": "y",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -97,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/12-Variables and Function Visibilty.sol": "B"
+			"contracts/14_Inhertiance in Solidity.sol": "B"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -111,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/12-Variables and Function Visibilty.sol": {
-			"keccak256": "0x7209289a8cc6251bf4e26405a7f5d17ae1071ad2ffb131f4977efe1be50fbf86",
+		"contracts/14_Inhertiance in Solidity.sol": {
+			"keccak256": "0xd8c33d39c83d1b3769958e4f2c080775bac4435e68f989ae8cae38424eac90d6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c6d7540f2933744d9d1479713dd3d9a62616eeb4cacddb93ab922d91c1d2fccb",
-				"dweb:/ipfs/QmNyreYx2Tzg3PhdBRGaQuCN7GVc2ZZ6TJcQmyirAmGbaH"
+				"bzz-raw://922ac46868b2e155239a2ea1fda7740783c1de2b259c585cbb78b1f2869bbf9d",
+				"dweb:/ipfs/QmUKGvFUC7NACNsyLVpnYWyBHYvMQYkL9Ceg7Ck5EvLBXD"
 			]
 		}
 	},
