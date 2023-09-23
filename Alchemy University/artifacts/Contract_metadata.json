@@ -1,10 +1,41 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_charity",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "charity",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
 			{
 				"inputs": [],
 				"name": "owner",
@@ -19,43 +50,15 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "_x",
-						"type": "int256"
-					}
-				],
-				"name": "setX",
+				"inputs": [],
+				"name": "tip",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -71,9 +74,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_Inhertiance in Solidity.sol": "A"
+			"Alchemy University/Self Destruct.sol": "Contract"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14_Inhertiance in Solidity.sol": {
-			"keccak256": "0x40211068cf437d9cb5d98614bd1bd5a7888c358b5b2bc8878784817f4d3e1f96",
-			"license": "GPL-3.0",
+		"Alchemy University/Self Destruct.sol": {
+			"keccak256": "0x8cd6b5a83b08fad9a3dbf16403343c9fb8107b6b23b0cc583ee9772a44b2ee15",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://a46f699779a8bbead58accb685992d337b205f40599c3a5eb8d81b5c98aa1c6c",
-				"dweb:/ipfs/QmZhcARRtDdsUSBXmQo3SmvYoqXT3pXaRtNW76G9fsJGs6"
+				"bzz-raw://e0ba3dfb908e9d881bb86e56d42c21f164c9cbb69dd0e72f5f80d6b1ab2f233e",
+				"dweb:/ipfs/Qmca1QAaNfB96Vef3TBmRry6JyNuyc7EgyFrduAyapb5BL"
 			]
 		}
 	},

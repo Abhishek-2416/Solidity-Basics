@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/14_Inhertiance in Solidity.sol": {
-			"keccak256": "0xd8c33d39c83d1b3769958e4f2c080775bac4435e68f989ae8cae38424eac90d6",
+			"keccak256": "0x40211068cf437d9cb5d98614bd1bd5a7888c358b5b2bc8878784817f4d3e1f96",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://922ac46868b2e155239a2ea1fda7740783c1de2b259c585cbb78b1f2869bbf9d",
-				"dweb:/ipfs/QmUKGvFUC7NACNsyLVpnYWyBHYvMQYkL9Ceg7Ck5EvLBXD"
+				"bzz-raw://a46f699779a8bbead58accb685992d337b205f40599c3a5eb8d81b5c98aa1c6c",
+				"dweb:/ipfs/QmZhcARRtDdsUSBXmQo3SmvYoqXT3pXaRtNW76G9fsJGs6"
 			]
 		}
 	},

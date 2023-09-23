@@ -6,26 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "_x",
-						"type": "int256"
-					}
-				],
-				"name": "setX",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "x",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -33,14 +20,8 @@
 			},
 			{
 				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
+				"name": "x2",
+				"outputs": [],
 				"stateMutability": "view",
 				"type": "function"
 			}
@@ -58,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_Inhertiance in Solidity.sol": "B"
+			"Alchemy University/Using Console.log.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +53,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14_Inhertiance in Solidity.sol": {
-			"keccak256": "0x40211068cf437d9cb5d98614bd1bd5a7888c358b5b2bc8878784817f4d3e1f96",
+		"Alchemy University/Using Console.log.sol": {
+			"keccak256": "0xef27fe13590846c974183e92a5a434bcbe2356117357d8a7b9c4cf3963a22bd7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a46f699779a8bbead58accb685992d337b205f40599c3a5eb8d81b5c98aa1c6c",
-				"dweb:/ipfs/QmZhcARRtDdsUSBXmQo3SmvYoqXT3pXaRtNW76G9fsJGs6"
+				"bzz-raw://5eeca5102aef99bf26ce32018ad910258dc6bcd478d5f40fafbe0460a53ec748",
+				"dweb:/ipfs/QmS4sFBuWviHGNc7XzeZaWQczdVp9gMo2QPwAqpsuucQkh"
+			]
+		},
+		"forge-std/console.sol": {
+			"keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+				"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
 			]
 		}
 	},
