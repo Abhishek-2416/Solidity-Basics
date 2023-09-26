@@ -65,6 +65,6 @@ contract Contract {
     function donate() public {
         (bool s,) = charity.call{value:address(this).balance}("");
         require(s);
-        selfdestruct(payable(charity));
+        // selfdestruct(payable(charity));
     }
 }

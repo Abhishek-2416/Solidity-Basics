@@ -20,3 +20,10 @@ contract Contract {
         require(s);
     }
 }
+/*
+This is a low level method of sending ether the general syntax is 
+.call{gas,value}("calldata")
+Where in we dont specifiy the gas it will take from the leftover gas after the deployment of the contract 
+
+As it is a low level function we it cannot revert the function automatically if it fails so we need to set a bool success and require(sucess) just in case to know if later the transaction fails it gets reverted
+*/

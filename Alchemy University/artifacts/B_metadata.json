@@ -8,14 +8,25 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "b",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
 					}
 				],
-				"name": "storeSum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -32,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Alchemy University/Targetting Functions.sol": "C"
+			"Alchemy University/Targetting Functions.sol": "B"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

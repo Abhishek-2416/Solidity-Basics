@@ -1,0 +1,83 @@
+{
+	"id": "01a81ccd0bb90d801c8f9f51a44d70aa",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.19",
+	"solcLongVersion": "0.8.19+commit.7dd6d404",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Alchemy University/Memory Array.sol": {
+				"content": "/*\nMemory Arrays\nUnlike storage arrays, memory arrays do not have a push member function.\n\nMemory arrays can have a dynamic size if the size is provided during initialization.\n\nFor example:\n\nimport \"forge-std/console.sol\";\ncontract Contract {\n\tuint x = 5;\n\n\tfunction createArray() view external {\n\t\taddress[] memory addresses = new address[](x);\n\t\tconsole.log( addresses.length ); // 5\n\t}\n}\n The size is dynamically provided by the variable x.\n We could potentially change this variable and it would create an array of addresses of that size.\n Notice the use of the new operator here during initialization!\n\nAfter initialization, memory arrays cannot be resized.\nThis means even in the example above, once the addresses array is initialized at size 5, it will stay that length for the entirety of the transaction.\n*/\n\n/*\n Your Goal: Filter Even Numbers\nCreate a pure, external function called filterEven which takes an dynamic size array of unsigned integers as its only argument.\nFind all the even numbers and add them to a new array in memory. This array should contain only the even numbers.\nReturn this new array.\n*/\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> Alchemy University/Memory Array.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "Alchemy University/Memory Array.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.19;\"\n--> Alchemy University/Memory Array.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.19;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "Alchemy University/Memory Array.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"Alchemy University/Memory Array.sol": {
+				"ast": {
+					"absolutePath": "Alchemy University/Memory Array.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "1122:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

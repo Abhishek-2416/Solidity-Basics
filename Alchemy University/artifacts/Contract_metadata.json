@@ -9,7 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_charity",
+						"name": "_a",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_b",
 						"type": "address"
 					}
 				],
@@ -18,7 +23,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "charity",
+				"name": "a",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -31,14 +36,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "donate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "b",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -51,14 +49,17 @@
 			},
 			{
 				"inputs": [],
-				"name": "tip",
+				"name": "payA",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "payB",
+				"outputs": [],
 				"stateMutability": "payable",
-				"type": "receive"
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -74,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Alchemy University/Self Destruct.sol": "Contract"
+			"Alchemy University/Transferring Funds.sol": "Contract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -88,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Alchemy University/Self Destruct.sol": {
-			"keccak256": "0x8cd6b5a83b08fad9a3dbf16403343c9fb8107b6b23b0cc583ee9772a44b2ee15",
+		"Alchemy University/Transferring Funds.sol": {
+			"keccak256": "0xf00b0183882e7eb9e78020d82637a5f6b9fc55d4f14e405d2febfb408696f670",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e0ba3dfb908e9d881bb86e56d42c21f164c9cbb69dd0e72f5f80d6b1ab2f233e",
-				"dweb:/ipfs/Qmca1QAaNfB96Vef3TBmRry6JyNuyc7EgyFrduAyapb5BL"
+				"bzz-raw://fe5d5ecf07cb7a952abb0268c3949f8d30c6df02c1f908536a5cc61f3f901115",
+				"dweb:/ipfs/Qma54W1mEbyR86W3wGmWKCQ1rEHjf3wQCiBZ3rL6r6mVf1"
 			]
 		}
 	},
