@@ -1,65 +1,34 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
+						"internalType": "int256",
+						"name": "_value",
+						"type": "int256"
 					}
 				],
-				"name": "changeOwner",
+				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "value",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "int256",
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "price",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_price",
-						"type": "uint256"
-					}
-				],
-				"name": "setPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -76,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/13_Function Modifiers.sol": "Property"
+			"contracts/01_Basic.sol": "Property"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -90,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/13_Function Modifiers.sol": {
-			"keccak256": "0xbf5832cb12fe0381be846baaa432f2ea736c3a698fdf2fbb1fe8169499a60b91",
-			"license": "GPL-3.0",
+		"contracts/01_Basic.sol": {
+			"keccak256": "0xb24be7e662575c3127c67964c589ed1c459776f8f7bb786d8149d9a754b827c4",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://b46d2ad50945f793b48b9d1cd136f2f9120cb37c83f189332121d3fdd145a8c7",
-				"dweb:/ipfs/QmVrdXZd29gqCPfNE62pw9Nbxk1E4HGoFoMXr4jyEWnGKa"
+				"bzz-raw://0d2a77f832ccae0c2b1590ca2bda1ffe66976ac2ca921ae4b5a36484f3fcec7a",
+				"dweb:/ipfs/Qmek1KJT6D4ZHVMjtqEYuQUDLH6i6vt4qZjzbMugSqTSoZ"
 			]
 		}
 	},

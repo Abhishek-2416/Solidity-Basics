@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Patrick Collins/SimpleStorage.sol": "SimpleStorage"
+			"Patrick Collins/Inheritance Example.sol": "AddFiveStorage"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -120,12 +120,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"Patrick Collins/SimpleStorage.sol": {
-			"keccak256": "0xa776ba2e97606fa8b3f2820c4559288d004999237bede490704175fa8dcb099d",
+		"Patrick Collins/Inheritance Example.sol": {
+			"keccak256": "0x079c1d11509f26ec425a99ba491957cf3fd23fceea0bf6cba245bdcab62a2a4d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fb58f41012c38f831fa79befbf7b3f22054f94756452ff1b6c79da8ac79afba7",
-				"dweb:/ipfs/QmbTMB77D5gFRvHP4MMBMyPWrLTZ9xsLY5aE541ftZ9Rjk"
+				"bzz-raw://4215170c56a82cfd8f45bd5fad264dbd335aaee8c9d880d2d4da7c6a3cf60237",
+				"dweb:/ipfs/Qmda6CBryUBwLKnA6AsNtdABtJ7n1f5cNCFbXxHWCpvVbq"
+			]
+		},
+		"Patrick Collins/SimpleStorage.sol": {
+			"keccak256": "0xde2d83f8ee30f904fc16278ed7123cbc7b1b4bb29befb7c2af754ff6014123dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b66b7c4dd8d8bb56be3fee107cb5a3ffb69a15404b7b7dbed7f271747533c50",
+				"dweb:/ipfs/QmWBh5bvknGtsezsFoFtffjWpV92k91svWUZbcVbzJkgcN"
 			]
 		}
 	},
