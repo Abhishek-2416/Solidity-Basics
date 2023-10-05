@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-//One more way to save gas is instead of writing in errors like "Not the Owner" we can create custom owners like this and send these
+//One more way to save gas is instead of writing in errors like "Not the Owner" we can create custom owners like this and send these and instead of using require we write the condition in ifelse statements
+
 error NotOwner();
 
 //859,757 is the gas taken in without optimization
