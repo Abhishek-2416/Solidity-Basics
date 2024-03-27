@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/17_Encoding.sol": {
-			"keccak256": "0xae70c7a57ae670b620b99cd98b4ce4916b97400ecf61fdbc7e1f054449f7cad9",
+			"keccak256": "0xc61cf9ae413ca0dab089665a40fa2fed947e670ce97b2c5ace43d340aa47f85d",
 			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://c01809db6bd9f98001b2b429567ee6214329e7e32ef0ede1a17bd81921a86c1f",
-				"dweb:/ipfs/QmX7FZzfR1e1z8hPcwLfNXgCynYQK5eL5Ao2GogTDX8cxT"
+				"bzz-raw://ee4e90b589b919b8e03a02db4a48075c4ca7d06b3811f705e77fec2403c19c13",
+				"dweb:/ipfs/QmPUpUQwtRVUchH2oRwYs8cDYPDcY1SACbqQVoiwqQuzzv"
 			]
 		}
 	},
