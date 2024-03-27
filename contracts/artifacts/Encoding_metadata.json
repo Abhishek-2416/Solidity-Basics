@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "combineStrings",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/17_Encoding.sol": "Encoding"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/17_Encoding.sol": {
+			"keccak256": "0xae70c7a57ae670b620b99cd98b4ce4916b97400ecf61fdbc7e1f054449f7cad9",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://c01809db6bd9f98001b2b429567ee6214329e7e32ef0ede1a17bd81921a86c1f",
+				"dweb:/ipfs/QmX7FZzfR1e1z8hPcwLfNXgCynYQK5eL5Ao2GogTDX8cxT"
+			]
+		}
+	},
+	"version": 1
+}
